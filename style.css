@@ -1076,22 +1076,17 @@ iframe {
 }
 
 
-* Service Offer Section */
+
+/* Service Offer Section */
 .service-offer {
     background-color: white;
     padding: 50px 20px;
     text-align: center;
 }
-.service-offer p{
-    color :blue;
-   font-size: 25px;
-   
-}
-
 
 .service-offer h2 {
     font-size: 28px;
-    color: blue;
+    color: #007BFF;
     margin-bottom: 20px;
     overflow: hidden;
     white-space: nowrap;
@@ -1148,4 +1143,3 @@ iframe {
     margin-top: 30px;
     color: #007BFF;
 }
-
