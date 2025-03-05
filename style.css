@@ -1082,10 +1082,16 @@ iframe {
     padding: 50px 20px;
     text-align: center;
 }
+.service-offer p{
+    color :blue;
+   font-size: 25px;
+   
+}
+
 
 .service-offer h2 {
     font-size: 28px;
-    color: #007BFF;
+    color: blue;
     margin-bottom: 20px;
     overflow: hidden;
     white-space: nowrap;
