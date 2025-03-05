@@ -1225,3 +1225,78 @@ iframe {
     width: 100%; /* Cards take full width on very small screens */
   }
 }
+
+.about-us {
+  background-color: white;
+  padding: 50px 20px;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.about-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.about-card:hover {
+  transform: translateY(-10px);
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.about-card p, .about-card ul {
+  font-size: 1rem;
+  color: #555;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  .about-card {
+    width: 30%;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-card {
+    width: 100%;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 1.5rem;
